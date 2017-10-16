@@ -1,0 +1,56 @@
+/*! _app.scss */
+
+@import "variables";
+
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'ubuntuitalic', Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  background: $color1;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  color: $color4;
+  text-decoration: none;
+}
+
+h2 {
+  margin: 0 0 1rem;
+  font-size: 3rem;
+  color: $color4;
+}
+
+h4 {
+  color: $color4;
+}
+
+input {
+  font-size: 1.4rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.long-text {
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
